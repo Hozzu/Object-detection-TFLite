@@ -6,7 +6,7 @@ This application is made for testing the speed and accuracy of object detection 
 
 This appliation supports two mode: camera and image.  
 Camera mode runs object detection from camera input and displays the result on monitor. This shows the speed and accuracy of model intuitively and visually.  
-Image mode runs object detection with given image files and prints the average inference speed and mAP (mean absolute precision). This shows the speed and accuracy of model quantitatively.  
+Image mode runs object detection with given image files and prints the average inference speed and mAP (mean average precision). This shows the speed and accuracy of model quantitatively.  
 
 ## Build
 This application runs on any HW supporting TensorFlow Lite with GPU and hexagon delegates.  
@@ -35,4 +35,5 @@ You can of course change the model file and data set by yourself.
 
 It was tested on SA8195 running Automotive Grade Linux.  
 
-![image](https://user-images.githubusercontent.com/28533445/149616020-a1939bda-9a47-4ba0-a6ad-e1aac3ab82a2.png)
+![image](https://user-images.githubusercontent.com/28533445/149861427-d533085a-8688-469e-b5bb-6bb9819897bd.png)
+
